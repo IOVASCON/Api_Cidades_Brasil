@@ -4,20 +4,20 @@ API Rest para consulta de informações sobre cidades brasileiras. Desenvolvido 
 
 ## Objetivos do Projeto
 
-    Implementar uma API REST para consulta de cidades, incluindo informações como nome, latitude e longitude.
-    Praticar a criação e configuração de um banco de dados PostgreSQL para armazenar dados geográficos.
-    Configurar o ambiente de desenvolvimento com Maven, Spring Boot, JPA, e HikariCP.
-    Explorar configurações de codificação UTF-8 para suportar caracteres acentuados no projeto.
+- Implementar uma API REST para consulta de cidades, incluindo informações como nome, latitude e longitude.
+- Praticar a criação e configuração de um banco de dados PostgreSQL para armazenar dados geográficos.
+- Configurar o ambiente de desenvolvimento com Maven, Spring Boot, JPA, e HikariCP.
+- Explorar configurações de codificação UTF-8 para suportar caracteres acentuados no projeto.
 
 ## Tecnologias Utilizadas
 
-    Java 17 - Linguagem de programação utilizada para o desenvolvimento do projeto.
-    Spring Boot 3.3.5 - Framework principal para a construção da API.
-    Spring Data JPA - Abstração de acesso ao banco de dados.
-    Hibernate - Implementação de JPA utilizada no projeto.
-    PostgreSQL - Banco de dados utilizado para armazenar as informações sobre cidades.
-    HikariCP - Pool de conexões para otimizar o gerenciamento de conexões com o banco de dados.
-    Maven - Ferramenta de build e gerenciamento de dependências.
+1. Java 17 - Linguagem de programação utilizada para o desenvolvimento do projeto.
+2. Spring Boot 3.3.5 - Framework principal para a construção da API.
+3. Spring Data JPA - Abstração de acesso ao banco de dados.
+4. Hibernate - Implementação de JPA utilizada no projeto.
+5. PostgreSQL - Banco de dados utilizado para armazenar as informações sobre cidades.
+6. HikariCP - Pool de conexões para otimizar o gerenciamento de conexões com o banco de dados.
+7. Maven - Ferramenta de build e gerenciamento de dependências.
 
 ## Estrutura do Projeto
 
@@ -157,7 +157,7 @@ Aqui estão algumas imagens capturadas durante o processo de desenvolvimento e c
 
 ## Recomendações Futuras para Melhoramento do Projeto
 
-1.**Paginação e Filtros:** Implementar paginação nos endpoints para otimizar o retorno de dados em APIs com muitas cidades.
+1. **Paginação e Filtros:** Implementar paginação nos endpoints para otimizar o retorno de dados em APIs com muitas cidades.
 2. **Cache:** Adicionar caching para melhorar o desempenho e reduzir a carga no banco de dados para dados estáticos.
 3. **Autenticação e Autorização:** Implementar segurança na API usando OAuth2, JWT ou Spring Security para proteger endpoints.
 4. **Documentação com Swagger:** Integrar o Swagger para documentar automaticamente a API, tornando-a mais acessível para desenvolvedores que utilizarem o serviço.
