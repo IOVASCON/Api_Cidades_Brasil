@@ -1,0 +1,12 @@
+# Outras configurações comuns
+target/
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.DS_Store
+*.idea/
+*.project
+*.classpath
+node_modules/
